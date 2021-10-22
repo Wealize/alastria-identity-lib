@@ -9,7 +9,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "postinstall": "run-s build",
-    "compile": "ts-node src/newConfigFile.ts && tsc",
+    "compile": "ts-node src/contractsConfigFile.ts && tsc",
     "clean": "rimraf dist",
     "build": "run-s clean compile",
     "test": "mocha -r ts-node/register test/**/*.ts",
